@@ -48,8 +48,8 @@ const ImageMasonry: React.FC<ImageMasonryProps> = ({ imageList }) => {
                 priority={true}
                 src={item.img}
                 alt={item.title}
-                width={500}
-                height={500}
+                width={item.width}
+                height={item.width}
                 layout="fill"
               />
             </ImageListItem>
